@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1496946/public_html/akuntansi.bmtinsancita.com/
+    - /bin/cp -R * $DEPLOYPATH
